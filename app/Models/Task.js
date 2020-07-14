@@ -11,6 +11,8 @@ class Task extends Model {
     static get primaryKey() {
         return 'id'
     }
+
+    
 }
 
 module.exports = Task

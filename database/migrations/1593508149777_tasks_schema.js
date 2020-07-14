@@ -11,6 +11,7 @@ class TasksSchema extends Schema {
       table.string('description',200).notNullable()
       table.bool('is_done').defaultTo(false)
       table.timestamps()
+      table.integer('userId',10).notNullable()
     })
   }
 

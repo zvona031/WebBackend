@@ -25,4 +25,5 @@ Route.get('api/task/getAll','TaskController.getAll')
 Route.post('api/task/create','TaskController.create')
 Route.delete('api/task/delete/:id','TaskController.delete')
 Route.patch('api/task/update/:id','TaskController.update')
+Route.get('api/task/get/:id','TaskController.get')
 
